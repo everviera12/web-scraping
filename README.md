@@ -1,59 +1,20 @@
 # Web Scraping api
 
-A short description about the project and/or client.
+A simple Node.js API for scraping text or content from web pages using Axios and Cheerio.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Run the following commands to install all dependencies using `pnpm`:
 
-### Prerequisites
-
-The things you need before installing the software.
-
-* You need this
-* And you need this
-* Oh, and don't forget this
-
-### Installation
-
-A step by step guide that will tell you how to get the development environment up and running.
-
+```bash
+pnpm add express
 ```
-$ First step
-$ Another step
-$ Final step
+```bash
+pnpm add axios
 ```
-
-## Usage
-
-A few examples of useful commands and/or tasks.
-
+```bash
+pnpm add cheerio
 ```
-$ First example
-$ Second example
-$ And keep this in mind
+```bash
+pnpm add cors
 ```
-
-## Deployment
-
-Additional notes on how to deploy this on a live or release system. Explaining the most important branches, what pipelines they trigger and how to update the database (if anything special).
-
-### Server
-
-* Live:
-* Release:
-* Development:
-
-### Branches
-
-* Master:
-* Feature:
-* Bugfix:
-* etc...
-
-## Additional Documentation and Acknowledgments
-
-* Project folder on server:
-* Confluence link:
-* Asana board:
-* etc...
