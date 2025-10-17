@@ -1,0 +1,28 @@
+{
+  "name": "web-scraping",
+  "version": "1.0.0",
+  "description": "Demo to show how we can scrape data from any website.",
+  "homepage": "https://github.com/everviera12/web-scraping#readme",
+  "bugs": {
+    "url": "https://github.com/everviera12/web-scraping/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everviera12/web-scraping.git"
+  },
+  "license": "ISC",
+  "author": "everviera12",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "cheerio": "^1.1.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
